@@ -1,0 +1,23 @@
+.basket-item {
+  border-bottom: 1px solid black;
+}
+
+.basket-item td {
+  padding: 10px;
+}
+
+.basket-item td:nth-child(2),
+.basket-item td:nth-child(3),
+.basket-item td:nth-child(4) {
+  text-align: right;
+}
+
+.amount-button {
+  padding: 6px;
+}
+
+.amount-selector {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
